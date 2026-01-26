@@ -12,9 +12,9 @@ import FloatingElements from "@/components/FloatingElements"
 import TapToReveal from "@/components/TapToReveal"
 
 // Change this to your anniversary date
-const ANNIVERSARY_DATE = "2025-05-25T00:00:00"
+const ANNIVERSARY_DATE = "2026-11-26T00:00:00"
 // Change this to the date you got together
-const TOGETHER_DATE = "2022-01-01T00:00:00"
+const TOGETHER_DATE = "202511-26T00:00:00"
 
 export default function Home() {
   const [loading, setLoading] = useState(true)
@@ -64,14 +64,8 @@ export default function Home() {
   ]
 
   // Change this message according to you
-  const message = `Dear Love,
-This journey with you has been the most beautiful adventure of my life. Every moment spent with you feels like a blessing, and I cherish each day we've been together.
-From our first meeting to today, you've filled my life with joy, laughter, and unconditional love. Your smile brightens my darkest days, and your love gives me strength when I need it most.
-As we celebrate another year together, I want you to know that my love for you grows stronger with each passing day. You are my best friend, my confidant, and my soulmate.
-Happy Anniversary, my love! Here's to many more years of creating beautiful memories together.
-With all my heart,
-Me`
-
+  const message = `JAANNUUU,
+Aur kese meri rasmalai, ajj humko 2 mahine ho chuken realationship but it feels like forever likee bhaii myyy bestt days started when u came in my life it was a belessing fr
   return (
     <main className="min-h-screen overflow-x-hidden bg-gradient-to-br from-pink-100 via-purple-50 to-blue-100">
       <FloatingElements />
@@ -166,7 +160,7 @@ Me`
                 transition={{ delay: 1.5 }}
                 className="text-center mt-16 mb-8 text-pink-600"
               >
-                <p className="text-lg font-medium">Made with ❤️ by @anujbuilds</p>
+                <p className="text-lg font-medium">Made with ❤️ by your gulab jamun</p>
               </motion.footer>
             </motion.div>
           </>
